@@ -1,0 +1,24 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:7rem;
+    .home-head{
+        width: 100%;
+        background-color:#003580 ;
+        display:flex;
+        justify-content: center;
+        .head-container{
+            width:100%;
+           
+        }
+
+    }
+    .home-content{
+        width:100%;
+        max-width:80%;
+       
+    }
+}

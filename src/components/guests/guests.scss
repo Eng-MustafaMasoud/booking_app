@@ -1,0 +1,40 @@
+.guests{
+    width: 100%;
+    margin:2rem 0;
+    .guests-container{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: .7rem;
+        .city{
+            width: 100%;
+            display:flex;
+            justify-content: space-between;
+            
+            height: 17rem;
+            flex-direction: column;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+            .city-text{
+                margin-top: .5rem;
+                display:flex;
+                flex-direction: column;
+                gap: .5rem;
+                .rate >span{
+                    margin-right: .2rem;
+                    background-color: #003580;
+                    padding: .2rem;
+                    color: #fff;
+                    border-radius: 5px;
+                }
+            }
+        }
+       
+    }
+}

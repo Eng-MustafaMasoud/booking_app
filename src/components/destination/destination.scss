@@ -1,0 +1,100 @@
+.hotels{
+    width: 100%;
+    gap: 2rem;  
+          height:25rem;
+    .hotels-wrapper{
+        width: 100%;
+        gap: 1rem;
+        border:1px solid rgba(0, 0, 0, 0.637);
+        border-radius: 5px;
+        padding: 1rem .5rem;
+        display: flex;
+        height: 100%;
+
+        img{
+            height: 100%;
+            object-fit:cover;
+        }
+        .hotel{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .free{
+                background-color: #0da14b;
+                width: max-content;
+                padding: .5rem;
+                color: #fff;
+                border-radius: 5px;
+            }
+          .htop{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .htitle{
+                color: #0a57c4;
+            }
+            .rate{
+                background-color: #003580;
+                padding:.5rem;
+                border-radius:5px;
+                color: #fff;
+            }
+
+          }
+          .hbottom{
+              height: 100%;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              gap: .5rem;
+              .pay{
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  gap: 1rem;
+                  .left{
+                      display: flex;
+                      flex-direction: column;
+                      gap: 1rem;
+                      .cancel{
+                          color:green
+                      }
+                      .later{
+                          color: rgb(115, 187, 6);
+                      }
+                  }
+                  .right{
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: space-between;
+                      gap: 1rem;
+                      text-align: center;
+                      .mony{
+                          font-weight: 700;
+                      }
+                      .opaci{
+                          color: #999;
+                      }
+                      button{
+                          padding:1rem 1rem;
+                          background-color: #003580;
+                          color:#fff;
+                          border-radius: 5px;
+                          border:none;
+                          cursor: pointer;
+                      }
+                  }
+              }
+          }
+
+        }
+
+    }
+}

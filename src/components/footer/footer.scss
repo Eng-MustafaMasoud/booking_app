@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom:2rem ;
+    .footer-container{
+        width: 100%;
+        max-width: 80%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer-list{
+            list-style: none;
+           color: rgb(84, 132, 223);
+           .list-item{
+               padding-bottom: 1rem;
+           }
+        }
+    }
+    p{
+        padding-top: 2rem;
+    }
+}
